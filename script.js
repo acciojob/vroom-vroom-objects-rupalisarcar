@@ -15,7 +15,7 @@ class SportsCar extends Car {
 		this.topSpeed=topSpeed;
 	}
 	get getTopSpeed(){
-		return `${topSpeed} of the car`;
+		return `${this.topSpeed} of the car`;
 	}
 }
 
